@@ -1,10 +1,11 @@
-
 import '../styles/components/sidebar.sass'
+
+import avatar from '../img/avatar.jpg'
 
 const Sidebar = () => {
     return (
         <aside id="sidebar">
-            <img src='https://placehold.co/850' alt="" />
+            <img src={avatar} alt="Avatar" />
             <p className="title">Desenvolvedor</p>
             <p>Redes Sociais</p>
             <p>Informações de Contato</p>
